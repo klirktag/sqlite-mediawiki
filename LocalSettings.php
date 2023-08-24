@@ -208,4 +208,7 @@ wfLoadExtension( 'WikiEditor' );
 # End of automatically generated settings.
 # Add more configuration options below.
 
+# I put all my personal changes in MyLocalSettings.php
+# To make version control easier
+# It is imported from earlier in this file
 
