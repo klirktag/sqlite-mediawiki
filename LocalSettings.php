@@ -201,7 +201,7 @@ wfLoadExtension( 'SyntaxHighlight_GeSHi' );
 wfLoadExtension( 'TemplateData' );
 wfLoadExtension( 'TextExtracts' );
 wfLoadExtension( 'Thanks' );
-wfLoadExtension( 'VisualEditor' );
+# wfLoadExtension( 'VisualEditor' );
 wfLoadExtension( 'WikiEditor' );
 
 
