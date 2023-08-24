@@ -161,6 +161,8 @@ $wgDiff3 = "/usr/bin/diff3";
 ## names, e.g. 'vector' or 'monobook':
 $wgDefaultSkin = "vector";
 
+require(__DIR__."/MyLocalSettings.php");
+
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'MinervaNeue' );
@@ -205,4 +207,5 @@ wfLoadExtension( 'WikiEditor' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
+
 
