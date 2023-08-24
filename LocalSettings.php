@@ -30,7 +30,7 @@ $wgMetaNamespace = "Sqlite-mediawiki";
 $wgScriptPath = "";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://localhost:8080";
+$wgServer = "http://".$_SERVER["SERVER_NAME"].":".$_SERVER['SERVER_PORT'];
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
