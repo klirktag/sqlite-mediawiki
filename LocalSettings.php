@@ -179,7 +179,7 @@ wfLoadExtension( 'CategoryTree' );
 wfLoadExtension( 'Cite' );
 wfLoadExtension( 'CiteThisPage' );
 wfLoadExtension( 'CodeEditor' );
-wfLoadExtension( 'DiscussionTools' );
+# wfLoadExtension( 'DiscussionTools' );
 wfLoadExtension( 'Echo' );
 wfLoadExtension( 'Gadgets' );
 wfLoadExtension( 'ImageMap' );
