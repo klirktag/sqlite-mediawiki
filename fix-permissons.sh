@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod -R a+rwx volumes/
+sudo chmod -R a+rwx volumes
