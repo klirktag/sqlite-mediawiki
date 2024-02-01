@@ -9,7 +9,7 @@ services:
     image: mediawiki:1.40
     restart: always
     ports:
-      - 9090:80
+      - 9999:80
     volumes:
       - ./volumes/images:/var/www/html/images
       # After initial setup, download LocalSettings.php to the same directory as
